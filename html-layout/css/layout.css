@@ -131,6 +131,12 @@ body {
     font-style: italic;
 }
 
+#article a {
+    color: #333533;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
 
 /* Footer */
 
