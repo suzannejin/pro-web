@@ -186,6 +186,36 @@ body {
     width: 200px;
 }
 
+/* Contact */
+
+#contact-us {
+    margin: 0;
+    padding-left: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#contact-us h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333533;
+    font-size: 24;
+}
+
+input, textarea, select {
+    width: 550px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333533;
+    margin-bottom: 20px;
+}
+
+input[type=radio] {
+    width: 20px;
+}
+
+input[type=submit] {
+    background-color: #f5cb5c;
+}
+
+
 
 /* Footer */
 

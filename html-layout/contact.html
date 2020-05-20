@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Biogene | Home</title>
+        <title>Biogene | Contact</title>
         <link rel="stylesheet" type="text/css" href="css/layout.css">
     </head>
 
@@ -10,7 +10,7 @@
 
             <div id="header">
                 <div id="logo"><a href="index.html"><img src="images/logo.png"></a></div>
-                <div id="slogan"><h1>Tomorrow’s technology for today’s challenges.</h1></div>
+                <div id="slogan"><h1>Tomorrow&apos;s technology for today&apos;s challenges.</h1></div>
             </div>
 
             <div id="nav">
@@ -24,7 +24,24 @@
             <div id="sidebar"></div>
             <div id="content">
                 <div id="contact-us">
-
+                    <h1>Contact us</h1>
+                    <form>
+                        Name<br><input type="text" name="name"><br>
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                        <br>
+                        Email<br><input type="email" name="email"><br>
+                        Phone<br><input type="tel" pattern="[0-9\+\(\)\s\-]+" name="phone"><br>
+                        Choose your services<br>
+                        <select>
+                            <option>Suggestion</option>
+                            <option>Reclamation</option>
+                            <option>Help</option>
+                        </select><br>
+                        Message<br><textarea rows="5" cols="50" name="message" placeholder="Input your text"></textarea><br>
+                        Upload a file <input type="file" name="file"><br>
+                        <input type="submit" value="SUBMIT">
+                    </form>
                 </div>
             </div>
 
